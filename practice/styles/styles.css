@@ -2,18 +2,21 @@ body {
 
   }
   
-nav {
+nav, footer {
     background-color: steelblue;
     padding: 10px;
+    color: white;
     text-align: center;
   }
-
 a {
     font-size: 1.5em;
     color: white;
     margin: 40px;
   }
-
+a:hover{
+    background-color: white;
+    color: steelblue;
+  }
 h1 {
     color: steelblue;
     text-align: center;
@@ -29,17 +32,16 @@ p {
     padding: 10px;
     margin: 50px auto;
   }
-footer {
-    background-color: steelblue;
-    color: white;
-    text-align: center;
-  }
-  .main-para {
+.main-para {
     font-size: 1.5em;
     line-height: 1.5em;
 
   }
-  #active {
+footer p {
+    font-size: 20 px;
+    margin: 20px auto;
+  }
+#active {
     background-color: white;
     color: steelblue;
   }

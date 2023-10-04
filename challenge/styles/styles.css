@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(239, 147, 232);
+    margin-left: 37%;
+    margin-right: 37%;
+  }
+  
+header, footer {
+  padding: 0 auto;  
+  color: white;
+    text-align: center;
+  }
+header p{
+
+  }
+a {
+    font-size: 1.5em;
+    color: white;
+    margin: 40px;
+  }
+ol{ 
+    align-content: center;
+  }
+li{
+    text-align: left;
+    font-size: 1.25em;
+    font-weight: 600;
+}
+h1:hover{
+    color: black;
+  }
+h1 {
+    color: white;
+    text-align: center;
+  }
+img {
+    width: 45%;
+    display: block;
+    margin: 0 auto;
+  }
+p {
+    width: 80%;
+    padding: 0 auto;
+    margin: 50px auto;
+  }
+main p {
+    font-size: 3em;
+    line-height: 1.5em;
+    width: 75%;
+    text-align: center;
+    color: white;
+
+  }
+footer p {
+    font-size: 20 px;
+    margin: 20px auto;
+    color: black;
+  }
+#active {
+    background-color: white;
+    color: steelblue;
+  }
