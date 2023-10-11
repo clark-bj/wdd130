@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@1,700&family=Raleway&display=swap');
+body {
+    background-color: #05668D;
+    font-family: "Libre Bodoni", Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #F58A07;
+    font-family: "Libre Bodoni", Helvetica, sans-serif;
+}
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,6 +18,7 @@ nav a {
     text-align: center;
     color: #000;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover {
     background-color: #D1FFC6;
@@ -20,20 +33,20 @@ nav a:hover {
 main section {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 #background {
     height: 725px;
 }
-body {
-    background-color: #05668D;
-}
-header {
-    background-color: #F58A07;
-}
-
 .book, .join {
     background-color: #F58A07;
     color: #05668D;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #D1FFC6;
@@ -41,12 +54,56 @@ header {
 #background {
     background-color: #F9AB55;
 }
+.home-title {
+    color: #F58A07;
+    font-family: "Libre Bodoni", Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+h4 {
+    color: #D1FFC6;
+}
+h2 {
+    margin: 0;
+}
 .msg {
     background-color: #05668D;
+    line-height: 1.5em;
+    padding: 35px;
+}
+.msg h2 {
+    color: #F9AB55;
+    font-family: "Libre Bodoni", Helvetica, sans-serif;
+}
+.msg p {
+    color: #fff;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+.logo {
+    width: 80px;
+}
+#logo_link {
+    padding-top: 5px;
+}
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+#hero-img {
+    width: 100%;
+}
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
 }
 footer {
     background-color: #D1FFC6;
     color: #000;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer p {
     font-size: 1.2em;
@@ -61,24 +118,6 @@ footer a {
 footer a:hover {
     color: #05668D;
 }
-.home-title {
-    color: #F58A07;
-}
-h4 {
-    color: #D1FFC6;
-}
-.msg h2 {
-    color: #F9AB55;
-}
-.msg p {
-    color: #fff;
-}
-.logo {
-    width: 80px;
-}
-.icon {
-    width: 80px;
-}
-#hero-img {
-    width: 100%;
+footer .social img {
+    padding-top: 15px;
 }
